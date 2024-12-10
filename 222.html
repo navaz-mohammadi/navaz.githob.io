@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EggCoin</title>
+    <style>
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #f7d774;
+            padding: 30px 10px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 10px 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+        .egg-image {
+            margin-top: 30px;
+        }
+        .egg-image img {
+            width: 150px;
+            height: 150px;
+        }
+        .cta-buttons {
+            margin-top: 40px;
+        }
+        .cta-buttons a {
+            text-decoration: none;
+            background-color: #f7d774;
+            color: #333;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            margin: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-buttons a:hover {
+            background-color: #e6c441;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        footer a {
+            color: #f7d774;
+            text-decoration: none;
+        }
+        .more-info {
+            display: none;
+            text-align: left;
+            padding: 20px;
+            font-size: 1.2em;
+            background-color: #f7f7f7;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+    <script>
+        function toggleMoreInfo() {
+            var infoSection = document.getElementById("more-info");
+            if (infoSection.style.display === "none" || infoSection.style.display === "") {
+                infoSection.style.display = "block";
+            } else {
+                infoSection.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>EggCoin</h1>
+        <p>From Likes to Leadership</p>
+    </header>
+
+    <div class="egg-image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Egg_Icon.svg/1200px-Egg_Icon.svg.png" alt="EggCoin">
+    </div>
+
+    <section>
+        <h2>Welcome to EggCoin</h2>
+        <p>The egg that once captured millions of hearts is now ready to conquer the digital world with EggCoin.</p>
+        <h3>🌟 From an Ordinary Egg to a Digital Revolution 🌟</h3>
+        <p>Once, a simple egg captured the hearts of millions around the world. No explanation, no claim—just by being itself! But that egg wasn’t just a record-breaker; it was a message: *Even the simplest things can become the greatest.*</p>
+        <p>Now, this egg is ready to amaze the world again. This time, not with likes, but with <strong>EggCoin</strong>! A coin that proves every egg, even the most iconic one, can break the hardest shells and soar in the digital financial world.</p>
+
+        <h3>EggCoin - More Than Just a Cryptocurrency</h3>
+        <p><strong>EggCoin</strong> is more than just a cryptocurrency; it’s a movement. A story. Join us now and help us shape the future of this digital revolution!</p>
+        
+        <div class="cta-buttons">
+            <a href="javascript:void(0)" onclick="toggleMoreInfo()">Learn More</a>
+            <a href="https://pump.fun" class="cta-btn" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- More Info Section -->
+        <div id="more-info" class="more-info">
+            <h3>How to Buy EggCoin</h3>
+            <p>To purchase EggCoin, follow these steps:</p>
+            <ol>
+                <li>Install the <strong>Phantom Wallet</strong> on your browser.</li>
+                <li>Make sure you have some <strong>Solana (SOL)</strong> in your wallet, as purchases are only possible with SOL.</li>
+                <li>Once your wallet is set up and funded, visit <strong><a href="https://pump.fun" target="_blank">Pump.fun</a></strong> to buy EggCoin.</li>
+            </ol>
+            <p>After purchasing, you will see your EggCoin directly in your Phantom wallet.</p>
+            <p><strong>About Pump.fun:</strong> This exchange is committed to a fair and transparent trading system. All coins are kept securely until the transaction is complete, ensuring no manipulation by the creators. The goal is to create the most popular coin in the market—EggCoin!</p>
+        </div>
+
+        <p>To purchase EggCoin, click the "Buy Now" button. <strong>For more details, click "Learn More"</strong>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EggCoin. All rights reserved. | Follow us on <a href="https://www.instagram.com/eggcoin" target="_blank">Instagram</a> and <a href="https://twitter.com/eggcoin" target="_blank">Twitter</a>.</p>
+    </footer>
+</body>
+</html>
